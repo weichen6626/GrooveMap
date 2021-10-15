@@ -1,7 +1,7 @@
 # GrooveMap
 By Ben, Eric, Manik, and Richard
 
-This repo contains the frontend work of our final project for database systems.
+This repo contains our final project for the database systems course.
 
 Link to YouTube [demo](https://youtu.be/TByy7S5CvWA).
 
