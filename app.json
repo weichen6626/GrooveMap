@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "GrooveMap",
+    "slug": "GrooveMap",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        // "bundleIdentifier": "com.example.GrooveMap",
+        "googleMapsApiKey": "AIzaSyAEuqi5WpNJNoiY-ucAgMDTjRB6ZfYivHQ"
+      },
+      "infoPlist": {
+        "NSAppTransportSecurity": {
+          "NSAllowsArbitraryLoads": true
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
